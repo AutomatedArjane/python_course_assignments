@@ -1,3 +1,4 @@
+#Lab02 Tehtävä 03
 nimi = input("Anna nimesi: ")
 etunimen_loppu = nimi.find(' ')
 sukunimen_loppu = len(nimi)
