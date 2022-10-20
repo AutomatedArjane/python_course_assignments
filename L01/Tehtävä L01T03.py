@@ -1,4 +1,4 @@
-#Lab01 Tehtävä 03
+#Lab01 Tehtävä 03 
 luku1 = int(input("Anna kokonaisluku: "))
 luku2 = int(input("Anna toinen kokonaisluku: "))
 summa = luku1 + luku2
