@@ -1,4 +1,4 @@
-#Lab03 Tehtävä 04
+#Lab03 Tehtävä 04 
 pisteet = int(input("Pisteet: "))
 
 if pisteet <= 5:

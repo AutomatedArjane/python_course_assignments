@@ -1,4 +1,4 @@
-#Lab03 Tehtävä 05
+#Lab03 Tehtävä 05 
 luku1 = int(input("Anna 1. luku: "))
 summa = 0
 if luku1 > 0:

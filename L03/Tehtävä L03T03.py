@@ -1,4 +1,4 @@
-#Lab03 Tehtävä 03
+#Lab03 Tehtävä 03 
 luku = int(input("Anna kokonaisluku: "))
 
 if luku == 10 or luku == 20:

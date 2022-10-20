@@ -1,4 +1,4 @@
-#Lab03 Tehtävä 02
+#Lab03 Tehtävä 02 
 luku1 = int(input("Anna ensimmäinen kokonaisluku: "))
 luku2 = int(input("Anna toinen kokonaisluku: "))
 luku3 = int(input("Anna kolmas kokonaisluku: "))

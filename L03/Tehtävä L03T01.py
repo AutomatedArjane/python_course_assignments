@@ -1,4 +1,4 @@
-#Lab03 Tehtävä 01
+#Lab03 Tehtävä 01 
 luku1 = int(input("Anna kokonaisluku: "))
 luku2 = int(input("Anna kokonaisluku: "))
 
