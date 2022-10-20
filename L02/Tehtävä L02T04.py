@@ -1,4 +1,4 @@
-#Lab02 Tehtävä 04
+#Lab02 Tehtävä 04 
 nimi = input("Anna etunimesi: ")
 svuosi = int(input("Syntymävuotesi: "))
 ika = 2022 - svuosi
