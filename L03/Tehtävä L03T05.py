@@ -20,4 +20,4 @@ luku5 = int(input("Anna 5. luku: "))
 if luku5 > 0:
     summa += luku5
 
-print(f"Lukujen summa on: {summa}")
+print(f"Lukujen summa on:")
