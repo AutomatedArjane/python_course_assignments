@@ -1,6 +1,8 @@
 #Lab03 Tehtävä 05 
 luku1 = int(input("Anna 1. luku: "))
 summa = 0
+
+# add up all numbers > 0
 if luku1 > 0:
     summa = luku1
 

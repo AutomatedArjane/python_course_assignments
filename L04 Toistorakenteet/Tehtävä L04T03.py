@@ -2,6 +2,7 @@
 annettu = 0
 summa = 0
 
+# print given numbers and their sum
 while True:
     luku = input("Anna luku: ")
 

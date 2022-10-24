@@ -1,4 +1,6 @@
 #Lab01 Tehtävä 04 
+
+# print the sum, difference and division of two numbers from the input
 luku1 = int(input("Anna kokonaisluku: "))
 luku2 = int(input("Anna toinen kokonaisluku: "))
 summa = luku1 + luku2

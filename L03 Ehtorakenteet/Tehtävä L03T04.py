@@ -1,6 +1,7 @@
 #Lab03 Tehtävä 04 
 pisteet = int(input("Pisteet: "))
 
+# calculate the grade based on number of points
 if pisteet <= 5:
     if pisteet <= 1:
         print(f"Arvosana: 0")
