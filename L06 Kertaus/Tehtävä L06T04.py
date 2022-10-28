@@ -12,7 +12,7 @@ def hyppy_pisteet():
         # determine the highest and lowest score, and remove them from the total score
         if luku > isoin:
             isoin = luku
-        if luku < pienin:
+        elif luku < pienin:
             pienin = luku
     pisteet_yhteensa = pisteet_yhteensa - isoin - pienin
 
