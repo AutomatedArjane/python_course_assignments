@@ -8,8 +8,10 @@ lotto_number = []
 
 # create the function
 def lotto():
-    for x in range(0,7):
-        lotto_number.append(random.randint(1,40)) # generate 7 random numbers
+    while len(lotto_number) < 7:
+        new_number = random.randint(1,40)
+        if new_number not in lotto_number:
+            lotto_number.append(new_number) # generate 7 random numbers
 
     lotto_number.sort() # sort the numbers
 
