@@ -5,9 +5,15 @@ def hyppy_pisteet():
     pisteet_yhteensa = 0
     isoin = 0
     pienin = 20
-    for x in range(5):
+    laskuri = 1
+
+    while laskuri <= 5:
         luku = int(input("Hypyn pisteet: "))
-        pisteet_yhteensa += luku
+        if luku >= 1 and luku <= 20:
+            pisteet_yhteensa += luku
+            laskuri += 1
+        else:
+            continue
 
         # determine the highest and lowest score, and remove them from the total score
         if luku > isoin:

@@ -1,6 +1,6 @@
 #Lab06 Tehtävä 05
 
-# convert inch to cm
+# convert from inch to cm
 def show_cm(inch):
     cm = inch * 2.54
     print(f"{inch} tuumaa on {cm:.2f} cm")

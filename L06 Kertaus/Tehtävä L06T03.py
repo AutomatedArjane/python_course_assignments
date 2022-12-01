@@ -17,6 +17,7 @@ def names():
         else:
             print(f"Oppilaita: {paljonko_oppilaita}")
             print(nimeja[0:-2])
+            break
 
 
 # carry out the program

@@ -17,13 +17,13 @@ def showtime(time):
 
 #determine if hours and minutes are 10 or more 
     if hours >= 10 and minutes >= 10:
-        print(f"{hours}:{minutes}:{seconds}")
+        return(f"{hours}:{minutes}:{seconds}")
     elif hours >= 10 and minutes <= 10:
-        print(f"{hours}:0{minutes}:{seconds}")
+        return(f"{hours}:0{minutes}:{seconds}")
     elif hours < 10 and minutes >= 10:
-        print(f"0{hours}:{minutes}:{seconds}")
+        return(f"0{hours}:{minutes}:{seconds}")
     else:
-        print(f"0{hours}:0{minutes}:{seconds}")
+        return(f"0{hours}:0{minutes}:{seconds}")
 
 #test the code
 print(showtime(500))
