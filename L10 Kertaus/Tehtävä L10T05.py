@@ -20,12 +20,14 @@ filename2 = path + "/"+ filename
 # open the file for writing, error handling is included
 try:
     file = open(filename2 , "w")
+
+    # write the list of colours into the file
+    for shade in rainbow:
+        file.write(shade + "\n")
+
 except:
     print(f'Could not open file "{filename}"')
-
-# write the list of colours into the file
-for shade in rainbow:
-    file.write(shade + "\n")
-
+    
 # close the file
-file.close()
+finally:
+    file.close()

@@ -1,6 +1,6 @@
 #Lab10 Tehtävä 03
 
-# create variable
+# create a variable
 year = int(input("Insert year: "))
 
 if year % 4 == 0: # is the year divisible by 4?

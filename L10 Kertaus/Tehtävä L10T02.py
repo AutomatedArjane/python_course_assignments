@@ -2,7 +2,7 @@
 
 # create the function
 def kerro3(age):
-    if age < 13:
+    if age < 13: # determine the category of the given age
         return "child"
     elif age >= 13 and age <= 19:
         return "teen"
