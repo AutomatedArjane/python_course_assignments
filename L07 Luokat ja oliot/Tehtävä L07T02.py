@@ -9,7 +9,7 @@ class Human:
     def __str__(self):
         return "Nimi: " + self.name + ", ikä: " + str(self.age)
 
-# create two objects
+# create the objects
 human1 = Human()
 human1.name = "Adam"
 human1.age = 19

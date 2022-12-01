@@ -6,7 +6,7 @@ class Mobile:
     model = ""
     price = 0
 
-# create a method for creating new objects
+# make a method for creating new objects
     def __init__(self, brand = "", model = "", price = 0):
         self.brand = brand
         self.model = model

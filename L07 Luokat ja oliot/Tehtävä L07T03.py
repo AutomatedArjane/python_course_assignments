@@ -13,7 +13,7 @@ class Cat:
     def naukumaan(self):
         print(self.name + " says: Meoooooow!")
 
-# create objects
+# create the objects
 cat1 = Cat()
 cat1.name = "Kit"
 cat1.color = "black"

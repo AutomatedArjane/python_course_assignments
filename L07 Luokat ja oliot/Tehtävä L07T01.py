@@ -16,7 +16,7 @@ kortti2.arvo = 12
 
 kortti3 = Pelikortti()
 kortti3.maa = "risti"
-kortti3.arvo = 5
+kortti3.arvo = 3
 
 kortti4 = Pelikortti()
 kortti4.maa = "pata"
