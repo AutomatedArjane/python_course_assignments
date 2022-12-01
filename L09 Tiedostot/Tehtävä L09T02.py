@@ -8,13 +8,17 @@ names = [""]
 try:
     file = open(filename, "r")
     names = file.readlines() # go through the file line by line
+
+    # print each name from the file, sort alphabetically and print again
+    print(names)
+    names.sort()
+    print(names)
+
+# throw an exception
 except:
     print(f"Tiedoston {filename} avaaminen epäonnistui")
 
-# print each name from the file, sort alphabetically and print again
-print(names)
-names.sort()
-print(names)
-
 # close the file
-file.close()
+finally:
+    file.close()
+
