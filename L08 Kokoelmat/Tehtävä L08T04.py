@@ -12,6 +12,6 @@ for x in range (0,10):
 # sort keys of dictionary
 sorted_cars = dict(sorted(cars_list.items()))
 
-# print the sorted keys and values
+# print the sorted keys and values one by one
 for key, value in sorted_cars.items():
     print(key, value)

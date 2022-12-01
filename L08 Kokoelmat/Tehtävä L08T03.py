@@ -15,5 +15,5 @@ while True:
 average = sum(course_grades)/len(course_grades)
 
 # print the number of ratings and the average grade
-print(len(course_grades))
-print(f"{average:.1f}")
+print(f"Annoit {len(course_grades)} arvosanaa")
+print(f"Arvosanojen keskiarvo on {average:.1f}")
